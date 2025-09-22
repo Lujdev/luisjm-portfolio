@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "readyToInnovate": "Listo para Innovar",
+    "fullStackDeveloper": "Desarrollador Full Stack",
+    "name": "Luis Molina",
+    "description": "Mejorando experiencias digitales que son fluidas, escalables e impactantes.",
+    "techStack": ["React", "Javascript", "Node.js", "PostgreSQL", "Next.js", "WordPress", "PHP", "Laravel", "Python", "Docker"],
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description1": "Hola, soy {{name}} apasionado por construir aplicaciones web y móviles inteligentes y escalables. He completado un curso de desarrollo full-stack y constantemente exploro nuevas tecnologías para perfeccionar mis habilidades.",
+    "description2": "Enfocado en el aprendizaje continuo, mi objetivo es hacer la transición a la industria de TI para 2027 y eventualmente moverme hacia la IA y la ciencia de datos.",
+    "downloadCV": "Descargar CV",
+    "viewProjects": "Ver Proyectos",
+    "stats": {
+      "totalProjects": {
+        "number": "7+",
+        "label": "Proyectos Totales",
+        "description": "Soluciones web y móviles innovadoras creadas"
+      },
+      "certificates": {
+        "number": "2",
+        "label": "Certificados",
+        "description": "Habilidades profesionales validadas"
+      },
+      "experience": {
+        "number": "3+",
+        "label": "Años de Experiencia",
+        "description": "Trayectoria de aprendizaje continuo"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "description": "Explora mi trayectoria a través de proyectos, certificaciones y experiencia técnica. Cada sección representa un hito en mi camino de aprendizaje continuo.",
+    "liveDemo": "Demo en Vivo",
+    "details": "Detalles",
+    "seeMore": "Ver Más Proyectos",
+    "showLess": "Ver Menos Proyectos",
+    "projects": {
+      "iarecruitment": {
+        "title": "App de Reclutamiento IA",
+        "description": "Plataforma de reclutamiento impulsada por IA construida con Express.js y Next.js para análisis inteligente de candidatos y recomendaciones."
+      },
+      "baccbeauty": {
+        "title": "BaccBeauty",
+        "description": "Sitio web profesional de salón de belleza construido con WordPress y Elementor, mostrando servicios y portafolio."
+      },
+      "coorslightpty": {
+        "title": "Coors Light Paraguay",
+        "description": "Sitio web de marca para Coors Light en Paraguay, desarrollado usando Drupal con diseño moderno."
+      },
+      "minestle": {
+        "title": "Mi Nestlé",
+        "description": "Desarrollo de sitio web en Drupal. Sección de artículos y materiales descargables con filtro por países, sección de marcas, recetas, promociones sección de podcast por temporadas y episodios."
+      },
+      "nescafe": {
+        "title": "Nescafé - Guatemala",
+        "description": "Sitio web de la marca Nescafé desarrollado con PHP, con diseño moderno y exhibición de productos."
+      },
+      "nestleagusta": {
+        "title": "Nestlé Anchor",
+        "description": "Seccion del sitio web de la marca Nestlé creado usando PHP, promoviendo vida saludable y productos."
+      },
+      "crystodolar": {
+        "title": "CrystoDólar",
+        "description": "Rastreador de tasas de cambio en tiempo real del Bolívar Venezolano contra el USD. Cuenta con API desarrollada en Python y FastAPI que realiza web scraping de diversas casas de cambio y mercado P2P de Binance USDT, calculando promedios individuales para precios de compra y venta."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "¿Tienes una pregunta? Envía un mensaje y te responderé pronto.",
+    "formTitle": "Ponte en Contacto",
+    "formDescription": "¿Tienes algo que discutir? Envía un mensaje y hablemos.",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Dirección de Correo",
+    "subject": "Asunto",
+    "message": "Tu Mensaje",
+    "sendMessage": "Enviar Mensaje",
+    "connectTitle": "Conecta Conmigo",
+    "connect": {
+      "linkedin": {
+        "title": "LinkedIn",
+        "subtitle": "Conectemos"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "subtitle": "@luii.dev"
+      },
+      "github": {
+        "title": "GitHub",
+        "subtitle": "@Lujdev"
+      }
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "language": {
+    "english": "EN",
+    "spanish": "ES"
+  }
+}

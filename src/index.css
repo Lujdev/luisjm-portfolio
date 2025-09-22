@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Developer Portfolio Design System - Dark theme with purple accents */
+
+@layer base {
+  :root {
+    --background: 222 47% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 262 83% 70%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217 33% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 262 83% 70%;
+    --accent-foreground: 222 47% 5%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 15%;
+    --input: 217 33% 15%;
+    --ring: 262 83% 70%;
+
+    /* Custom design tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(222 47% 5%) 0%, hsl(262 50% 15%) 40%, hsl(195 80% 20%) 100%);
+    --purple-glow: 262 83% 70%;
+    --purple-light: 262 83% 80%;
+    --tech-badge: 217 33% 20%;
+    --glass-bg: hsla(222, 47%, 8%, 0.8);
+    --glass-border: hsla(210, 40%, 98%, 0.1);
+    
+    /* Shadows */
+    --shadow-purple: 0 10px 30px -10px hsl(262 83% 70% / 0.3);
+    --shadow-card: 0 10px 25px -5px hsl(222 47% 0% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Additional utility classes for special effects */
+  .hero-gradient {
+    background: var(--hero-gradient);
+  }
+  
+  .glass-effect {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(12px);
+  }
+  
+  .tech-badge {
+    background: hsl(var(--tech-badge));
+    color: hsl(var(--foreground));
+    border: 1px solid hsl(var(--border));
+    transition: var(--transition-smooth);
+  }
+  
+  .tech-badge:hover {
+    background: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-purple);
+  }
+  
+  .purple-glow {
+    box-shadow: var(--shadow-purple);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--purple-glow)), hsl(var(--purple-light)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--hero-gradient);
+    min-height: 100vh;
+  }
+}
