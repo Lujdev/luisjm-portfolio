@@ -35,7 +35,7 @@
   "portfolio": {
     "title": "Portfolio Showcase",
     "description": "Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continuous learning path.",
-    "liveDemo": "Live Demo",
+    "liveDemo": "Live",
     "details": "Details",
     "seeMore": "See More Projects",
     "showLess": "Show Less Projects",
@@ -53,7 +53,7 @@
         "description": "Brand website for Coors Light in Paraguay, developed using Drupal with modern design."
       },
       "minestle": {
-        "title": "My Nestlé",
+        "title": "Mi Nestlé",
         "description": "Website development in Drupal. Section of articles and downloadable materials with filter by countries, brands section, recipes, promotions, podcast section by seasons and episodes."
       },
       "nescafe": {
