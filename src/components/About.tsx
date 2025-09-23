@@ -19,6 +19,13 @@ const About = () => {
     t('about.stats.experience', { returnObjects: true }) as Stat
   ];
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="about" className="py-20 px-6">
       <div className="container mx-auto">
@@ -47,10 +54,15 @@ const About = () => {
                     {t('about.downloadCV')}
                   </a>
                 </Button>
-                <Button variant="outline" size="lg">
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  {t('about.viewProjects')}
-                </Button>
+               <Button
+                               variant="default"
+                               size="lg"
+                               onClick={() => scrollToSection('portfolio')}
+                               className="purple-glow"
+                             >
+                               <ExternalLink className="w-4 h-4 mr-2" />
+                               {t('hero.projects')}
+                             </Button>
               </div>
             </div>
 
