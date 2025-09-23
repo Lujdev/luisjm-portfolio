@@ -1,64 +1,64 @@
 {
   "hero": {
-    "readyToInnovate": "Ready to Innovate",
+    "readyToInnovate": "Ready to Innovate, Create and Improve",
     "fullStackDeveloper": "Full Stack Developer",
     "name": "Luis Molina",
-    "description": "Enhancing digital experiences that are smooth, scalable, and made to impress.",
+    "description": "Enhancing digital experiences that are smooth, scalable and impactful.",
     "techStack": ["React", "Javascript", "Node.js", "PostgreSQL", "Next.js", "WordPress", "PHP", "Laravel", "Python", "Docker"],
     "projects": "Projects",
     "contact": "Contact"
   },
   "about": {
     "title": "About Me",
-    "description1": "Hello, I'm {{name}} passionate about building smart and scalable web & mobile applications. I've completed a full-stack development course and constantly explore new technologies to refine my skills.",
-    "description2": "Focused on continuous learning, I aim to transition into the IT industry by 2027 and eventually move towards AI and data science.",
+    "description1": "Hi, I'm {{name}}, passionate about building smart and scalable web and mobile applications. I have completed full-stack development courses and worked on web development projects, constantly exploring new technologies to refine my skills.",
+    "description2": "I'm focused on continuous learning; my goal is to create innovative solutions and apply AI and data science to improve user experience and make life easier.",
     "downloadCV": "Download CV",
     "viewProjects": "View Projects",
     "stats": {
       "totalProjects": {
         "number": "7+",
         "label": "Total Projects",
-        "description": "Innovative web & mobile solutions crafted"
+        "description": "Innovative web and mobile solutions created"
       },
       "certificates": {
         "number": "2",
         "label": "Certificates",
-        "description": "Professional skills validated"
+        "description": "Validated professional skills"
       },
       "experience": {
         "number": "3+",
         "label": "Years of Experience",
-        "description": "Continuous learning journey"
+        "description": "Journey of continuous learning"
       }
     }
   },
   "portfolio": {
-    "title": "Portfolio Showcase",
-    "description": "Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continuous learning path.",
-    "liveDemo": "Live",
+    "title": "Portfolio",
+    "description": "Explore my journey through projects, certifications and technical experience. Each section represents a milestone on my path of continuous learning.",
+    "liveDemo": "Live Demo",
     "details": "Details",
     "seeMore": "See More Projects",
-    "showLess": "Show Less Projects",
+    "showLess": "See Fewer Projects",
     "projects": {
       "iarecruitment": {
         "title": "AI Recruitment App",
-        "description": "AI-powered recruitment platform built with Express.js and Next.js for intelligent candidate analysis and recommendations."
+        "description": "AI-driven recruitment platform built with Express.js and Next.js for intelligent candidate analysis and recommendations."
       },
       "baccbeauty": {
         "title": "BaccBeauty",
-        "description": "Professional beauty salon website built with WordPress and Elementor, showcasing services and portfolio."
+        "description": "Professional website for a cosmetics brand present in 5 countries (Venezuela, Colombia, El Salvador, Guatemala and Peru), built with WordPress and Elementor, showcasing services and portfolio."
       },
       "coorslightpty": {
         "title": "Coors Light Paraguay",
-        "description": "Brand website for Coors Light in Paraguay, developed using Drupal with modern design."
+        "description": "Brand website for Coors Light in Paraguay, developed using Drupal with a modern design."
       },
       "minestle": {
-        "title": "Mi Nestlé",
-        "description": "Website development in Drupal. Section of articles and downloadable materials with filter by countries, brands section, recipes, promotions, podcast section by seasons and episodes."
+        "title": "My Nestlé",
+        "description": "Website development in Drupal. Articles and downloadable materials section filtered by country, brands section, recipes, promotions, podcast section by seasons and episodes."
       },
       "nescafe": {
         "title": "Nescafé - Guatemala",
-        "description": "Brand website for Nescafé developed with PHP, featuring modern design and product showcase."
+        "description": "Brand website for Nescafé developed with PHP, featuring a modern design and product showcase."
       },
       "nestleagusta": {
         "title": "Nestlé Anchor",
@@ -66,15 +66,15 @@
       },
       "crystodolar": {
         "title": "CrystoDólar",
-        "description": "Real-time currency exchange rate tracker for Venezuelan Bolívar against USD. Features API built with Python and FastAPI that performs web scraping from various exchange houses and P2P Binance USDT market, calculating individual averages for buy/sell prices."
+        "description": "Real-time exchange-rate tracker for the Venezuelan Bolívar against USDT. Features a Python and FastAPI API that scrapes various exchange houses and Binance USDT P2P market, calculating individual averages for buy and sell prices."
       }
     }
   },
   "contact": {
     "title": "Contact Me",
-    "subtitle": "Got a question? Send me a message, and I'll get back to you soon.",
-    "formTitle": "Get in Touch",
-    "formDescription": "Have something to discuss? Send me a message and let's talk.",
+    "subtitle": "Have a question? Send a message and I'll reply soon.",
+    "formTitle": "Get In Touch",
+    "formDescription": "Have something to discuss? Send a message and let's talk.",
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Email Address",
@@ -85,7 +85,7 @@
     "connect": {
       "linkedin": {
         "title": "LinkedIn",
-        "subtitle": "Let's Connect"
+        "subtitle": "Let's connect"
       },
       "instagram": {
         "title": "Instagram",

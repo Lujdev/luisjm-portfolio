@@ -1,6 +1,6 @@
 {
   "hero": {
-    "readyToInnovate": "Listo para Innovar",
+    "readyToInnovate": "Listo para Innovar, Crear y Mejorar",
     "fullStackDeveloper": "Desarrollador Full Stack",
     "name": "Luis Molina",
     "description": "Mejorando experiencias digitales que son fluidas, escalables e impactantes.",
@@ -10,8 +10,8 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "description1": "Hola, soy {{name}} apasionado por construir aplicaciones web y móviles inteligentes y escalables. He completado un curso de desarrollo full-stack y constantemente exploro nuevas tecnologías para perfeccionar mis habilidades.",
-    "description2": "Enfocado en el aprendizaje continuo, mi objetivo es hacer la transición a la industria de TI para 2027 y eventualmente moverme hacia la IA y la ciencia de datos.",
+    "description1": "Hola, soy {{name}} apasionado por construir aplicaciones web, móviles inteligentes y escalables. He completado cursos de desarrollo full-stack, he trabajado en proyectos de desarrollo web,  constantemente exploro nuevas tecnologías para perfeccionar mis habilidades.",
+    "description2": "Estoy enfocado en el aprendizaje continuo, mi objetivo es crear soluciones innovadoras y aplicar la IA y la ciencia de datos, para mejorar la experiencia y facilitar la vida de los usuarios.",
     "downloadCV": "Descargar CV",
     "viewProjects": "Ver Proyectos",
     "stats": {
@@ -46,7 +46,7 @@
       },
       "baccbeauty": {
         "title": "BaccBeauty",
-        "description": "Sitio web profesional de salón de belleza construido con WordPress y Elementor, mostrando servicios y portafolio."
+        "description": "Sitio web profesional de marca de cosmeticos que esta presente en 5 países(Venezuela, Colombia, El Salvador, Guatemala y Perú), construido con WordPress y Elementor, mostrando servicios y portafolio."
       },
       "coorslightpty": {
         "title": "Coors Light Paraguay",
@@ -66,7 +66,7 @@
       },
       "crystodolar": {
         "title": "CrystoDólar",
-        "description": "Rastreador de tasas de cambio en tiempo real del Bolívar Venezolano contra el USD. Cuenta con API desarrollada en Python y FastAPI que realiza web scraping de diversas casas de cambio y mercado P2P de Binance USDT, calculando promedios individuales para precios de compra y venta."
+        "description": "Rastreador de tasas de cambio en tiempo real del Bolívar Venezolano contra el USDT. Cuenta con API desarrollada en Python y FastAPI que realiza web scraping de diversas casas de cambio y mercado P2P de Binance USDT, calculando promedios individuales para precios de compra y venta."
       }
     }
   },
